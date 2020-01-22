@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+
+}
+html,body {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+    z-index: 10;
+}
+.all-tickets{
+font-family: Sans-Serif;
+color:#fff;
+width:100%;
+border-top:0.2rem solid rgba(0,0,0,0.3);
+border-bottom: 0.2rem solid rgba(0,0,0,0.2);
+
+background: #3337;
+
+}
+.all-tickets-item{
+    padding: 0.25rem 1rem;
+    position: relative;
+    list-style: none;
+    display:flex;
+     justify-content: space-around;
+     
+}
+ 
+ .all-tickets-item-arrow{
+     position: absolute;
+      left:15px;
+      top:0.3rem;
+      
+      border-radius: 50%;
+      height: 25px;
+      width:25px;
+        border:0.2rem solid rgba(255,255,255, 0.7);
+      color: #fff;
+      font-size: 1.2rem;
+ }
+.all-tickets-item-city{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+   
+}
+
+.all-tickets-item-data{
+     margin-top:0.5rem;
+     margin-bottom: 0.5rem;
+}
+
+
+
+.all-tickets-item-type{
+    margin-top:0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+
+.arrow{
+    color:#fff;
+    
+}
+
+.ref{
+    position: relative;
+    
+    margin: 0.2rem;
+}
+.tickets-fone{
+    width:100%;
+    height: 100vh;
+     z-index:-10;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: url('https://b1.vestifinance.ru/c/394720.742x370.jpg');
+   position: absolute;
+}
+.all-tickets-item-price{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.tickets-fone2{
+    width:100%;
+    height: 100vh;
+     z-index:-10;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: url(https://aviasearch.kz/assets/images/map.jpg);
+   position: absolute;
+}
